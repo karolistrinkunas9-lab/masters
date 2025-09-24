@@ -7,8 +7,9 @@ Base software system functionality:
   1. Ability to detect requirement quality issues (trained AI model)
   2. Ability to assist in evaluating software requirement quality, and quality of requirement modification
   3. Ability to suggest changes and modify the target requirement based on feedback
-  4. 
-------------------------------------------------------------------------------------------------------
+
+
+     
 INPUT OUTPUT FOR SYSTEM:
 Input (X) -> Original requirement, Wanted modification
 Output (Y) -> Modified requirement
@@ -17,7 +18,8 @@ Example:
 Input 1 (Original requirement): The system should support three languages - lithuanian, english and danish
 Input 2 (Feedback): The system does not support danish
 Output: The system should support two languages - lihuanian and english
--------------------------------------------------------------------------------------------------------
+
+
 INPUT OUTPUT FOR AI MODEL:
 
 INPUT (X) -> Requirement
