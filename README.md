@@ -33,7 +33,7 @@ Example 2:
 Input (Requirement):  A special indication should be shown to the user
 Output: Subjective language
 
-Example 2:
+Example 3:
 Input (Requirement):  The driver shall select an override control according to the permission received
 Output: -
 
