@@ -1,4 +1,7 @@
 # masters
+Dataset Origin:
+Requirement smells (DS1/DS2/DS3/DS4/SmellyWordsDictionary) https://github.com/m-zakeri/ARTA/ ARTA tool
+Requirement correction: FR_NFR_Dataset
 
 The idea, is to assist in the process of requirements engineering, by creating a system to modify requirements.
 The core steps include the evaluation process, the detection of issues (before and after modification) and the modification of the requirement.
