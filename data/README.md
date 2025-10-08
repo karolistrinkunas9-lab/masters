@@ -1,4 +1,4 @@
-<img width="415" height="61" alt="image" src="https://github.com/user-attachments/assets/c0aa6959-e503-4db0-9026-a32a3f466453" /># masters
+# masters
 
 The idea, is to assist in the process of requirements engineering, by creating a system to modify requirements.
 The core steps include the evaluation process, the detection of issues (before and after modification) and the modification of the requirement.
