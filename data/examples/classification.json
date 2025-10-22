@@ -1,0 +1,9 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "task": "TEXT CLASSIFICATION",
+  "input": "If any part of the call fails, an audible and visual indication shall be provided in the appropriate cab.",
+  "output": {
+    "predicted_labels": ["Nonverifiable"],
+    "probabilities": [0.394, 0.021, 0.99, 0.012, 0.017]
+  }
+}
