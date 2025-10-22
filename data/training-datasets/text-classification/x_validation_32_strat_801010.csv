@@ -1,0 +1,79 @@
+﻿text,Subjective,Ambiguous,Nonverifiable,Negative,Vague
+"System Initialization shall configure the FCP virtual group to use all available synchronized processors, if at least 3 of the 5 FCRs are active.",0,0,0,0,1
+"Confirmation messages shall be sent to a confirmation centre using a defined short code (see table 9-10), which shall be associated with the GSM network. (M)",0,1,0,0,0
+"EIRENE mobile equipment shall be capable of operating between altitudes of -100m and 1800m, referenced to sea level. (M)",0,1,0,0,0
+The fields of an International Functional Number shall be defined as follows: (M),0,1,0,0,0
+Broadcast primitives shall not be available on ICPs.,0,0,0,1,0
+Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,0,0,0,1,0
+"Follow-up data may be received from take response exams of persons who received a countermeasure that requires such an exam (i.e., smallpox vaccination).",0,0,0,0,1
+The logical architecture of the General purpose radio is illustrated in figure 6-1. (I),0,1,0,0,0
+Web servers have already replicated necessary content.,0,1,0,0,0
+"For each OUTRIDER system, the TCS shall provide full independent computer redundancy.",0,0,0,0,1
+The TCS shall be capable of presenting to the operator a visual depiction of the minimum and maximum data link operational ranges.,0,0,1,0,0
+Start Up shall be able to synchronize all operational FCPs in the presence of this skew in the power on sequence.,0,0,0,0,1
+The scheduler shall support up to 20 tasks per rate group.,0,0,1,0,0
+The FDIR shall not take more than 3 msec per minor frame while processing faults.,0,0,0,1,0
+Website must be able to support free trial periods with various parameters set by the Izogn Manager.,0,1,0,0,0
+"If the system is not able to connect the call, an audible and visual indication shall be provided to the driver. (M) Send Railway emergency call",0,0,1,0,0
+Text quality: The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability.,1,0,1,1,0
+No specific testing procedures need to be used on the Operational radio over and above those given in section 4. (I),0,1,0,0,0
+An audible and visual indication of the incoming call shall be provided when a Cab radio receives a group or broadcast call. (M),0,0,1,0,0
+The product must display a window with all the player' scores.,0,0,0,0,1
+"An internet connection and a browser are required in order to download new language translations For the following features, use cases are not included",0,0,0,1,0
+It shall be possible for the user to store and/or overwrite numbers and their details in the radio. (M) Computer interface,0,0,1,0,0
+"On entering shunting mode, the terminal shall initially select the common shunting group. (M)",0,1,0,0,0
+The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,0,0,0,0,1
+All EIRENE mobile equipment shall be protected against shock and vibration in compliance with standards defined in [prEN 50125] using tests defined in [prEN 50155]. (M),0,1,0,0,0
+Every on-engine/coach function shall be identified by a unique standard number. (M),1,0,0,0,0
+Memory scrubbing shall be executed without interfering with normal execution of applications tasks.,1,0,0,1,0
+"By default, the loudspeaker volume shall be set to a pre-determined level suitable for the operating environment (as stored within the system). (M)",1,0,1,0,0
+The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,1,0,1,0,0
+Monitoring data should be collected about cases and exposed individuals who are isolated or quarantined because of a health event.,0,0,0,0,1
+Malicious requests are identified and acted upon.,0,1,0,0,0
+The system should ensure high scalability and performance through:,1,0,0,0,0
+There are no special hardware interface requirements,0,1,0,1,0
+It shall support normal synchronization following power on or reset.,1,0,1,0,0
+The driver and other in-cab equipment shall be protected against all electrical hazards arising from EIRENE mobile equipment as defined in [EN 50153]. (M),0,1,0,0,0
+The train shall be supervised according to train speed data available.,1,0,0,0,0
+The Operational radio should be suitable for use with a car adapter kit. (O),0,0,1,0,0
+The environmental support required by the TCS shall be at least the same as that required for the respective UAV System.,0,0,1,0,1
+Memory alignment shall align processor state and congruent aligned memory locations. Processor state includes all registers. It also includes those timers used by FTSS.,0,0,0,0,1
+"The Cab radio shall be able to receive, display and store incoming short (SMS) text messages (see section 12). (M)",0,1,0,0,0
+The equipment shall be capable of coping with temperature variations of up to +/- 1°C/minute. (M),0,1,0,0,0
+The system shall be easy to use,1,0,0,0,0
+".25vii If automatic network selection is implemented, it shall be possible for the driver to activate and deactivate automatic network selection. (M)",1,0,0,0,0
+The system shall be extremely portable via the usb drive.,0,1,0,0,0
+"If automatic network selection is implemented, the driver shall be capable of deactivating and/or re-activating this function using simple MMI actions. (M)",1,1,0,0,0
+The system must exhibit each of the help pages using the same color scheme and background as specified.,0,1,0,0,0
+Operationally caused infrequent and slight moisture condensation shall not lead to any malfunction or failure. (M),0,1,0,1,0
+"Following power being applied to all five chassis, the FTPP system shall become operational in at most 1.5 minutes.",0,0,0,0,1
+The TCS design shall consider all safety requirements affecting design and performance except nuclear safety.,0,0,0,0,1
+Standardised output interfaces shall enable transmission of information recorded to other media for investigation,1,0,0,0,0
+Any equipment mounted external to the train cab shall withstand the following maximum levels of sinusoidal vibration: (M),0,1,0,0,0
+"The type of call initiated shall be determined automatically, based upon the mode of operation of the radio. (M)",0,1,0,0,0
+The Development Team shall be required to adjust existing source code to follow accepted coding standards only if that source code must be modified.,0,1,0,0,0
+The emergency stop shall be indicated to the driver on the DMI.,0,0,1,0,0
+"In the event of GSM-R causing disruption to ongoing direct mode communications, each railway will define a protocol for re-establishing contact by means of GSM-R. (I)",0,1,0,0,0
+"If direct mode is implemented, a means to enter and leave direct mode shall be provided. (M)",1,0,0,0,0
+The full numbering plan for shunting mode group calls is defined in subsection 9.9. (I),0,1,1,0,0
+"Only the development systems are considered here. Installed systems are to be chosen later, based on available technology and experiences with the development systems.",0,1,0,0,0
+Route unsuitability shall be indicated on the DMI.,0,0,1,0,0
+The TCS shall provide the functionality to display all HCI elements on any available monitor on the TCS workstation.,0,0,0,0,1
+The sequence described in 11.3.9i steps 1-7 may be interrupted or may require additional user action such as a confirmation. (I),0,1,0,0,0
+The scheduler shall execute all the tasks in each of the rate groups that have been installed in the current mode.,0,0,0,0,1
+Systems supporting OM must be able to accept data from other partner systems supporting OM.,0,1,0,0,0
+The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.,0,0,1,0,0
+The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.,0,0,0,1,0
+It should be possible for the driver to store and overwrite numbers and their details in the Cab radio. (O) Invoke supplementary services,0,0,1,0,0
+"Communication services shall provide the capability to ""broadcast"" messages to all virtual groups.",0,0,0,0,1
+The system shall be functionally and physically partitioned to allow for efficient fault isolation.,1,0,0,0,0
+The user must be able to generate reports defined in R1.06.01 for any subset of projects from one or different project portfolios.,0,0,0,0,1
+Display jitter and flicker shall not be perceptible by the operator.,0,0,0,1,0
+Continuous Tone Coded Squelch Systems (CTCSS) shall be implemented on all direct mode equipment. (M),0,1,0,0,0
+"TCS shall provide the capability to monitor specific telemetry elements real-time, and record all telemetry elements for future review and processing.",0,0,0,0,1
+The MMI should be suitable for use both by day and night. (O),1,0,0,0,0
+The system shall encrypt all sensitive information via https.,1,0,0,0,0
+There are no development assumptions or dependencies.,0,0,0,1,0
+"The Simple Finish Window contains a the following text: ""You win !"" and a pushbutton with the label ""OK"".",1,1,1,0,0
+"The functional identity (which may contain an alphanumeric description) of the calling party, when available, shall be displayed. (M)",1,0,0,0,0
+An audible indication should be provided to the user if the network service is no longer available. (O),0,0,1,0,0
