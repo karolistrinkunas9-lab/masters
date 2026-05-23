@@ -1,0 +1,52 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Requirement {
+  id        String   @id @default(uuid())
+  text      String
+  quality   String   @default("Medium") // High, Medium, Low
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  modifications RequirementModification[]
+
+  @@map("requirements")
+}
+
+model RequirementModification {
+  id               String   @id @default(uuid())
+  requirementId    String
+  requirement      Requirement @relation(fields: [requirementId], references: [id], onDelete: Cascade)
+  
+  stakeholderFeedback String?
+  modifiedText        String
+  aiModel             String // GPT-5, Claude, Qwen 3
+  
+  // Detected Issues
+  detectedSubtypes    String[] // Subjective, Ambiguous, Nonverifiable, Negative, Vague
+  
+  // Modification Quality
+  qualityOfModification String // Very low, Low, Average, High, Very high
+  correctnessOfChange   String // Very low, Low, Average, High, Very high
+  aiModelComment        String?
+  
+  // Overall Quality
+  reqQuality      String // Low, Average, High
+  changeQuality   String // Low, Average, High
+  finalResult     String // Very low, Low, Average, High, Very high
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("requirement_modifications")
+}
+
