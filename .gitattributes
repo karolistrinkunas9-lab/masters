@@ -1,0 +1,6 @@
+# Normalize line endings (LF in repo and working tree)
+* text=auto eol=lf
+
+# Windows-only scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf

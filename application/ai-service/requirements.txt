@@ -1,0 +1,11 @@
+# Simplified AI Service Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+transformers==4.35.2
+torch==2.1.1
+pydantic==2.5.0
+setfit==1.0.3
+huggingface-hub==0.19.4
+numpy==1.26.2
+scikit-fuzzy==0.4.2
+
